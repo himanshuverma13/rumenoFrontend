@@ -1,0 +1,63 @@
+/* src/ImageGallery.css */
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .big-image img {
+    width: 500px;
+    height: 500px;
+    /* object-fit: cover; */
+  }
+  .big-image iframe {
+    width: 500px;
+    height: 500px;
+    /* object-fit: cover; */
+  }
+
+
+  
+  .thumbnail-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.2s;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .big-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .big-image iframe {
+      width: 20rem;
+      height: 28.5rem;
+    }
+    
+    .farm-data-help{
+      position: absolute;
+      left: -85px;
+    }
+  }
+
+
+  /* Change Color on Scroll */
+
+.scroll-text {
+  color: white;
+  mix-blend-mode: difference;
+}
+

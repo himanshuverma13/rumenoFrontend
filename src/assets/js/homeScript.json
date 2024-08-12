@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "1. What are animal feed supplements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The purpose of animal feed supplements is to improve the nutritional value of animal diets by the use of specialty items. They supply vital elements such as vitamins, minerals, and amino acids, which may be deficient in ordinary food."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "2. Why are animal feed supplements important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The health, growth, and production of animals depend heavily on proper nutrition. Feed supplements support growth, repair nutritional gaps, and enhance general health."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "3. What types of animals benefit from feed supplements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Feed supplements are beneficial for a variety of species, such as:Cattle and buffaloes: For general health, growth, and milk production.Poultry (Ducks, Chickens): To boost immunity and egg production.Fish and other aquatic animals: specialized diet for aquaculture.Pigeons: Pets and racing pigeons need different nutrition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "4. Why choose Rumeno Farmotech for feed supplements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality Assurance: Rumeno Farmotech ensures high-quality products.Research-Driven Approach: Backed by scientific research.Nationwide Reach: Over 150 franchise outlets across India.Customer-Centric: 24/7 customer support.Franchise Opportunities: Passionate about animal health? Explore franchise options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "5. How do I contact Rumeno Farmotech?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visit Rumeno Farmotech’s website or call +91-72399 72499."
+      }
+    }
+  ]
+}

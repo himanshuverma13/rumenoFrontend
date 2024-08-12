@@ -1,0 +1,105 @@
+
+.video-container {
+  position: relative;
+}
+
+.video {
+  height: 34rem;
+  max-width: 42rem;
+  object-fit: cover;
+}
+
+.play-icon {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 60px;
+  color: white;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: 50px;
+  background: red;
+  padding: 1px 13px 1px 20px;
+}
+.achievement-section .carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4% !important;
+  padding: 28px 18px !important;
+  color: #fff;
+  text-align: center;
+  background: #403f3fd4;
+  border: 0;
+  border-radius: 50px;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+.achievement-section .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4% !important;
+  padding: 28px 18px !important;
+  color: #fff;
+  text-align: center;
+  background: #403f3fd4;
+  border: 0;
+  border-radius: 50px;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .achievement-section .carousel-control-prev {
+    position: absolute;
+    top: 11.6rem;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14% !important;
+    margin: 0px;
+    padding: 25px 7px !important;
+    color: #fff;
+    text-align: center;
+    background: #403f3fd4;
+    border: 0;
+    border-radius: 50px;
+    opacity: .5;
+    transition: opacity .15s ease;
+  }
+  .achievement-section .carousel-control-next {
+    position: absolute;
+    top: 11.6rem;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14% !important;
+    margin: 0px;
+    padding: 25px 7px !important;
+    color: #fff;
+    text-align: center;
+    background: #403f3fd4;
+    border: 0;
+    border-radius: 50px;
+    opacity: .5;
+    transition: opacity .15s ease;
+  }
+  .video {
+    height: 25rem;
+    width: 100%;
+    object-fit: fill;
+}
+}
